@@ -1,0 +1,11 @@
+[package]
+name = "epub-to-bionic-reading-v2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+regex = "1.8.1"
+zip = {version = "0.6.6", default-features = false, features = [ "deflate" ]}
+xmltree = "0.10.3"
+log = "0.4.22"
+simple_logger = "5.0.0"
